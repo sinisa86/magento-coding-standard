@@ -565,6 +565,11 @@
         <severity>5</severity>
         <type>warning</type>
     </rule>
+    <rule ref="Magento2.Commenting.FunctionsPHPDocFormatting">
+        <severity>5</severity>
+        <type>warning</type>
+        <exclude-pattern>*/_files/*</exclude-pattern>
+    </rule>
     <rule ref="Squiz.Commenting.DocCommentAlignment">
         <severity>5</severity>
         <type>warning</type>
